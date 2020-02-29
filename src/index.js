@@ -1,7 +1,7 @@
 import React from 'react';
-import {StatusBar} from 'react-native';
+import { StatusBar } from 'react-native';
 import InitialStack from './routes';
-import {PRIMARY} from './utils/colors';
+import { PRIMARY } from './utils/colors';
 
 const App = () => (
   <>

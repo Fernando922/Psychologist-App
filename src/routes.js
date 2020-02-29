@@ -1,5 +1,5 @@
-import {createAppContainer} from 'react-navigation';
-import {createStackNavigator} from 'react-navigation-stack';
+import { createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import Home from './pages/home';
 
 const HomeStack = createStackNavigator(
@@ -10,7 +10,7 @@ const HomeStack = createStackNavigator(
     defaultNavigationOptions: {
       headerShown: false,
     },
-  },
+  }
 );
 
 const Routes = createAppContainer(HomeStack);
